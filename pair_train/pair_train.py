@@ -352,7 +352,7 @@ if __name__ == '__main__':
                                 cooldown=0,
                                 min_lr=0)
 
-    # first_train(train_generator, validation_generator)
+    first_train(train_generator, validation_generator)
 
     # model = load_model(first_trained_weights)
     # first_trained_model = load_model('/home/fenglf/PycharmProjects/keras-finetuning-master/xcep_incep19-0.9850-0.9902.h5')
