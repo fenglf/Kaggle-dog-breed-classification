@@ -1,6 +1,8 @@
 # Kaggle-dog-breed-classification
 
 > author: [fenglf](https://github.com/fenglf)
+
+
 > **Star this repository if you find it helpful, thank you!**
 
 
@@ -57,23 +59,6 @@ Train with pair of images and pair losses (Category loss plus Binary loss) inspi
   - Pair_train: [pair_train.py](pair_train/pair_train.py)
   - Pair_predict: [pair_predict.py](pair_train/pair_predict.py)
 
-### Tech
-
-Dillinger uses a number of open source projects to work properly:
-
-* [AngularJS] - HTML enhanced for web apps!
-* [Ace Editor] - awesome web-based text editor
-* [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
-* [node.js] - evented I/O for the backend
-* [Express] - fast node.js network app framework [@tjholowaychuk]
-* [Gulp] - the streaming build system
-* [Breakdance](http://breakdance.io) - HTML to Markdown converter
-* [jQuery] - duh
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
-
 
 ### Todos
 
@@ -84,4 +69,6 @@ And of course Dillinger itself is open source with a [public repository][dill]
 [freelzy/Baidu_Dogs](https://github.com/freelzy/Baidu_Dogs)
 [q5390498/baidu_dog](https://github.com/q5390498/baidu_dog)
 > If you find some bug in this code, create an issue or a pull request to fix it, thanks!
+
+
 > **Star this repository if you find it helpful, thank you!**
