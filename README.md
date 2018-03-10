@@ -28,20 +28,20 @@ This is the baseline of [Kaggle-dog-breed-classification](https://www.kaggle.com
 ### Data prepare
 You can strongly improved the performance of classifier with external data [Stanford dog datasets](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 ### Train
-##### Single_model_finetune
+#### Single_model_finetune
 Fine-tune Convolutional Neural Network in Keras with ImageNet Pretrained Models
 - Choose a base model, remove the top layer and initialize it with ImageNet weights no top.
 - Add fully-connected layer to the last layer.
 - Freeze all the base model CNN layers and train the new-added fc layer.
 - Unfreeze some base model layers and finetune.
-##### gap_train
+#### gap_train
 Train with concatenating multiple ImageNet Pretrained Models' bottle-neck feature in Keras.
 - Choose several models, remove the top layer and initialize them with corresponding ImageNet weights no top.
 - Extract their bottle-neck features by data (including train data and test data) moving forward the models.
 - Concatenate the bottle-neck features of train data.
 - Add fully-connected layer to train a classifier.
 
-##### pair_train
+#### pair_train
 Train with pair of images and pair losses (Category loss plus Binary loss) inspired by [the idea in Person Re-id](https://arxiv.org/abs/1611.05666) and [cweihang](https://github.com/ahangchen).
 - Choose 2 different models or just one model, remove the top layer and initialize them with corresponding ImageNet weights no top.
 - Input two images, containing same or different (positive or negtive samples) labels, Which means whether two images belong to same class or not. In each batch, we can find some samples with the same class. So we simply swap those samples to construct positive samples.
@@ -65,13 +65,13 @@ Train with pair of images and pair losses (Category loss plus Binary loss) inspi
  -  Center loss
 
 ### Reference
-[ahangchen/keras-dogs](https://github.com/ahangchen/keras-dogs)
+- [ahangchen/keras-dogs](https://github.com/ahangchen/keras-dogs)
 
 
-[freelzy/Baidu_Dogs](https://github.com/freelzy/Baidu_Dogs)
+- [freelzy/Baidu_Dogs](https://github.com/freelzy/Baidu_Dogs)
 
 
-[q5390498/baidu_dog](https://github.com/q5390498/baidu_dog)
+- [q5390498/baidu_dog](https://github.com/q5390498/baidu_dog)
 > If you find some bug in this code, create an issue or a pull request to fix it, thanks!
 
 
