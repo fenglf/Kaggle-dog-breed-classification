@@ -51,6 +51,11 @@ Train with pair of images and pair losses (Category loss plus Binary loss) inspi
 - Freeze all the base model(s) CNN layers, train the full connected layers for category and binary classification.
 - Unfreeze some base model(s) layers and finetune.
 ![](pair_train/model_combined_inv3_xception.png)
+
+
+or
+
+
 ![](pair_train/model_combined_xc.png)
 ## Code
 - Single_model_finetune
