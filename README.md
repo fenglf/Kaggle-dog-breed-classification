@@ -66,7 +66,11 @@ Train with pair of images and pair losses (Category loss plus Binary loss) inspi
 
 ### Reference
 [ahangchen/keras-dogs](https://github.com/ahangchen/keras-dogs)
+
+
 [freelzy/Baidu_Dogs](https://github.com/freelzy/Baidu_Dogs)
+
+
 [q5390498/baidu_dog](https://github.com/q5390498/baidu_dog)
 > If you find some bug in this code, create an issue or a pull request to fix it, thanks!
 
