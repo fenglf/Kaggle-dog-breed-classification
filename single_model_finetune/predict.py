@@ -149,9 +149,9 @@ def write_csv(test, csv_out_path):
 if __name__ == '__main__':
     test_generator = gen_test_gen((299, 299), xception.preprocess_input)
 
-    # test = predict(pair_model_best, test_generator)
+    test = predict(pair_model_best, test_generator)
     # test1, test2, dif = pair_predict(pair_model_best, test_generator)
-    test = pair_predict(pair_model_best, test_generator)
+    # test = pair_predict(pair_model_best, test_generator)
 
     write_csv(test, csv_out_path)
 
