@@ -47,6 +47,7 @@ Train with pair of images and pair losses (Category loss plus Binary loss) inspi
 - Input two images, containing same or different (positive or negtive samples) labels, Which means whether two images belong to same class or not. In each batch, we can find some samples with the same class. So we simply swap those samples to construct positive samples.
 - Freeze all the base model(s) CNN layers, train the full connected layers for category and binary classification.
 - Unfreeze some base model(s) layers and finetune.
+![](pair_train/re-id-combined-loss.png)
 ## Code
 - Single_model_finetune
   - Train: [train.py](single_model_finetune/train.py)
