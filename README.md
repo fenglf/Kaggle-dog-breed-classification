@@ -60,11 +60,11 @@ Train with pair of images and pair losses (Category loss plus Binary loss) inspi
   - Pair_predict: [pair_predict.py](pair_train/pair_predict.py)
 
 
-### Todos
+## Todos
 
  -  Center loss
 
-### Reference
+## Reference
 - [ahangchen/keras-dogs](https://github.com/ahangchen/keras-dogs)
 
 
