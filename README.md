@@ -1,13 +1,13 @@
 # Kaggle-dog-breed-classification
 
 > author: [fenglf](https://github.com/fenglf)
-**Star this repository if you find it helpful, thank you!**
+> **Star this repository if you find it helpful, thank you!**
 
 
 ## About
 This is the baseline of [Kaggle-dog-breed-classification](https://www.kaggle.com/c/dog-breed-identification/) on Python, Keras, and TensorFlow. 
- name: [fenglf](https://www.kaggle.com/fenglf)
- rank: [tied 1st](https://www.kaggle.com/c/dog-breed-identification/leaderboard)
+- name: [fenglf](https://www.kaggle.com/fenglf)
+- rank: [tied 1st](https://www.kaggle.com/c/dog-breed-identification/leaderboard)
 
 ## Framework
 - [Keras](https://keras.io/)
@@ -84,4 +84,4 @@ And of course Dillinger itself is open source with a [public repository][dill]
 [freelzy/Baidu_Dogs](https://github.com/freelzy/Baidu_Dogs)
 [q5390498/baidu_dog](https://github.com/q5390498/baidu_dog)
 > If you find some bug in this code, create an issue or a pull request to fix it, thanks!
-**Star this repository if you find it helpful, thank you!**
+> **Star this repository if you find it helpful, thank you!**
