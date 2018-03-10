@@ -34,20 +34,24 @@ Fine-tune Convolutional Neural Network in Keras with ImageNet Pretrained Models
 - Add fully-connected layer to the last layer.
 - Freeze all the base model CNN layers and train the new-added fc layer.
 - Unfreeze some base model layers and finetune.
+![](single_model_finetune/model_ccn.png)
 #### gap_train
 Train with concatenating multiple ImageNet Pretrained Models' bottle-neck feature in Keras.
 - Choose several models, remove the top layer and initialize them with corresponding ImageNet weights no top.
 - Extract their bottle-neck features by data (including train data and test data) moving forward the models.
 - Concatenate the bottle-neck features of train data.
 - Add fully-connected layer to train a classifier.
+![](gap_train/model.png)
 
 #### pair_train
-Train with pair of images and pair losses (Category loss plus Binary loss) inspired by [the idea in Person Re-id](https://arxiv.org/abs/1611.05666) and [cweihang](https://github.com/ahangchen).
+Train with pair of images and pair losses (Category loss plus Binary loss) inspired by [the idea in Person Re-id](https://arxiv.org/abs/1611.05666).
+![](pair_train/re-id-combined-loss.png)
 - Choose 2 different models or just one model, remove the top layer and initialize them with corresponding ImageNet weights no top.
 - Input two images, containing same or different (positive or negtive samples) labels, Which means whether two images belong to same class or not. In each batch, we can find some samples with the same class. So we simply swap those samples to construct positive samples.
 - Freeze all the base model(s) CNN layers, train the full connected layers for category and binary classification.
 - Unfreeze some base model(s) layers and finetune.
-![](pair_train/re-id-combined-loss.png)
+![](pair_train/model_combined_inv3_xception.png)
+![](pair_train/model_combined_xc.png)
 ## Code
 - Single_model_finetune
   - Train: [train.py](single_model_finetune/train.py)
