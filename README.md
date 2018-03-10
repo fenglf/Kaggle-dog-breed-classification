@@ -3,7 +3,7 @@
 > author: [fenglf](https://github.com/fenglf)
 
 
-> **Star this repository if you find it helpful, thank you!**
+**Star this repository if you find it helpful, thank you!**
 
 
 ## About
@@ -55,7 +55,7 @@ Train with pair of images and pair losses (Category loss plus Binary loss) inspi
   - Write bottle-neck feature: [write_gap.py](gap_train/write_gap.py)
   - Gap_train: [gap_train.py](gap_train/gap_train.py)
   - Gap_predict: [gap_predict.py](gap_train/gap_predict.py)
--  pair_train
+- pair_train
   - Pair_train: [pair_train.py](pair_train/pair_train.py)
   - Pair_predict: [pair_predict.py](pair_train/pair_predict.py)
 
@@ -71,4 +71,4 @@ Train with pair of images and pair losses (Category loss plus Binary loss) inspi
 > If you find some bug in this code, create an issue or a pull request to fix it, thanks!
 
 
-> **Star this repository if you find it helpful, thank you!**
+**Star this repository if you find it helpful, thank you!**
